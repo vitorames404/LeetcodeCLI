@@ -1,0 +1,36 @@
+
+# Build artifacts
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider & VSCode settings (if applicable)
+.idea/
+.vscode/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Runtime-generated files
+*.log
+
+# Dotnet-specific cache
+*.db-shm
+*.db-wal
+
+# Dependency resolution
+project.lock.json
+project.fragment.lock.json
+
+# Local config
+*.swp
+*.tmp
+
+# JSON database (optional if you don't want to track progress in Git)
+problems.json
